@@ -17,7 +17,16 @@ Antes de comenzar asegurate de tener instalados los isguientes componentes:
 
 ### Configuracion Postgresql con python
 1. Instala el paquete psycopg2: En tu entorno de Python, instala el paquete psycopg2 que permite la conexión con PostgreSQL. Puedes hacerlo utilizando pip:
- ```bash
-pip install psycopg2
+   ```bash
+   pip install psycopg2
 
 2. Conexión a la base de datos:
+   ```bash
+   import psycopg2
+   
+    conn = psycopg2.connect(
+        user="postgres",
+        password="tu_contraseña",
+        host="localhost",
+        database="tu_basededatos"
+    )
