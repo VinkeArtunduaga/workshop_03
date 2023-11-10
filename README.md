@@ -30,3 +30,19 @@ Antes de comenzar asegurate de tener instalados los isguientes componentes:
         host="localhost",
         database="tu_basededatos"
     )
+
+## Ejecucion del taller
+Para ejecutar este taller seguir los siguientes pasos:
+
+1. Clonar este repositorio en tu maquina local
+   ```bash
+   git clone https://github.com/VinkeArtunduaga/workshop_03.git
+   
+2. Asegurate de que cumples con los requisitos anteriores.
+3. Crear una base de datos en postgresql llamada happiness_predictions
+4. Ejecutar el notebook del EDA_workshop03.ipynb
+5. Ejecutar el codigo de python llamado feature_selection.py
+6. Ejecutar el codigo de main.py que se encuentra en data streaming.
+7. Ejecutar el notebook de metrics para ver las meticas correspondientes al modelo
+
+
